@@ -1,42 +1,42 @@
-1.package.jsonÀïÃæ¶¨ÒåÏîÄ¿µÄ¾ßÌåÐÅÏ¢ºÍÒÀÀµ¡£Ö´ÐÐnpm installµÄÊ±ºò»á×Ô¶¯¼ì²épackage.jsonÀïÃæµÄÏîÄ¿ÒÀÀµ¡£È»ºóÉú³Énode_modules
+ï»¿1.package.jsoné‡Œé¢å®šä¹‰é¡¹ç›®çš„å…·ä½“ä¿¡æ¯å’Œä¾èµ–ã€‚æ‰§è¡Œnpm installçš„æ—¶å€™ä¼šè‡ªåŠ¨æ£€æŸ¥package.jsoné‡Œé¢çš„é¡¹ç›®ä¾èµ–ã€‚ç„¶åŽç”Ÿæˆnode_modules
 
-2.webpack´ÓÈë¿ÚÎÄ¼þ¿ªÊ¼½«require¶«Î÷ÕûºÏ»ØÀ´´ò°ü
+2.webpackä»Žå…¥å£æ–‡ä»¶å¼€å§‹å°†requireä¸œè¥¿æ•´åˆå›žæ¥æ‰“åŒ…
 
-ÕâÐ©ÎÄ¼þµÄµ¼ÈëÊÇnpm×öµÄ¡£¡£webpackÖ»ÊÇ½«ÐèÒªµÄ¶«Î÷´Ónode_moduleÄÃ¹ýÀ´´ò°ü
+è¿™äº›æ–‡ä»¶çš„å¯¼å…¥æ˜¯npmåšçš„ã€‚ã€‚webpackåªæ˜¯å°†éœ€è¦çš„ä¸œè¥¿ä»Žnode_moduleæ‹¿è¿‡æ¥æ‰“åŒ…
 
-3.loader:¼ÓÔØÆ÷
+3.loader:åŠ è½½å™¨
 
-4.bable-loaderÓÃÀ´½«es6£¬jsxµÄÓï·¨×ª»¯³Ées5
+4.bable-loaderç”¨æ¥å°†es6ï¼Œjsxçš„è¯­æ³•è½¬åŒ–æˆes5
 
-5.webpack.configure.jsÊÇwebpackÄ¬ÈÏµÄÅäÖÃÎÄ¼þ
+5.webpack.configure.jsæ˜¯webpacké»˜è®¤çš„é…ç½®æ–‡ä»¶
 
-6.webpack dev server¿ÉÒÔ´´½¨Ò»¸ö·þÎñÆ÷¡£¿ÉÒÔ¼à¿ØÎÄ¼þµÄ±ä»¯½ø¶ø×Ô¶¯±àÒë¡£
+6.webpack dev serverå¯ä»¥åˆ›å»ºä¸€ä¸ªæœåŠ¡å™¨ã€‚å¯ä»¥ç›‘æŽ§æ–‡ä»¶çš„å˜åŒ–è¿›è€Œè‡ªåŠ¨ç¼–è¯‘ã€‚
 
-7.react hot loaderÊµÏÖÈÈ¸üÐÂ£¬ÎÄ¼þ±ä»¯µÄÊ±ºò¸üÐÂÒ³Ãæ¡£¡£¡£Ö»¸üÐÂ¸Ä±äµÄ¶«Î÷
+7.react hot loaderå®žçŽ°çƒ­æ›´æ–°ï¼Œæ–‡ä»¶å˜åŒ–çš„æ—¶å€™æ›´æ–°é¡µé¢ã€‚ã€‚ã€‚åªæ›´æ–°æ”¹å˜çš„ä¸œè¥¿
 
-8.webpackÀïÃæµÄplugins¿ÉÒÔÒýÈë²å¼þ£¬ÊµÏÖ¸ü¶àµÄ¹¦ÄÜ
-
-
-9.reactÊµÏÖÁË×é¼þ»¯±à³Ì£¬ÊµÏÖÁË´úÂë¸´ÓÃ¡£ÐéÄâdomµÄÊµÏÖÊ¹µÃÎÒÃÇ²»±ØÈ¥ÐÞ¸ÄÕæÊµµÄdom¡£
+8.webpacké‡Œé¢çš„pluginså¯ä»¥å¼•å…¥æ’ä»¶ï¼Œå®žçŽ°æ›´å¤šçš„åŠŸèƒ½
 
 
-10.React State(×´Ì¬)
-React °Ñ×é¼þ¿´³ÉÊÇÒ»¸ö×´Ì¬»ú£¨State Machines£©¡£Í¨¹ýÓëÓÃ»§µÄ½»»¥£¬ÊµÏÖ²»Í¬×´Ì¬£¬È»ºóäÖÈ¾ UI£¬ÈÃÓÃ»§½çÃæºÍÊý¾Ý±£³ÖÒ»ÖÂ¡£
-React Àï£¬Ö»Ðè¸üÐÂ×é¼þµÄ state£¬È»ºó¸ù¾ÝÐÂµÄ state ÖØÐÂäÖÈ¾ÓÃ»§½çÃæ£¨²»Òª²Ù×÷ DOM£©¡£
+9.reactå®žçŽ°äº†ç»„ä»¶åŒ–ç¼–ç¨‹ï¼Œå®žçŽ°äº†ä»£ç å¤ç”¨ã€‚è™šæ‹Ÿdomçš„å®žçŽ°ä½¿å¾—æˆ‘ä»¬ä¸å¿…åŽ»ä¿®æ”¹çœŸå®žçš„domã€‚
+
+
+10.React State(çŠ¶æ€)
+React æŠŠç»„ä»¶çœ‹æˆæ˜¯ä¸€ä¸ªçŠ¶æ€æœºï¼ˆState Machinesï¼‰ã€‚é€šè¿‡ä¸Žç”¨æˆ·çš„äº¤äº’ï¼Œå®žçŽ°ä¸åŒçŠ¶æ€ï¼Œç„¶åŽæ¸²æŸ“ UIï¼Œè®©ç”¨æˆ·ç•Œé¢å’Œæ•°æ®ä¿æŒä¸€è‡´ã€‚
+React é‡Œï¼Œåªéœ€æ›´æ–°ç»„ä»¶çš„ stateï¼Œç„¶åŽæ ¹æ®æ–°çš„ state é‡æ–°æ¸²æŸ“ç”¨æˆ·ç•Œé¢ï¼ˆä¸è¦æ“ä½œ DOMï¼‰ã€‚
 
 11.
-state ºÍ props Ö÷ÒªµÄÇø±ðÔÚÓÚ props ÊÇ²»¿É±äµÄ£¬¶ø state ¿ÉÒÔ¸ù¾ÝÓëÓÃ»§½»»¥À´¸Ä±ä¡£
+state å’Œ props ä¸»è¦çš„åŒºåˆ«åœ¨äºŽ props æ˜¯ä¸å¯å˜çš„ï¼Œè€Œ state å¯ä»¥æ ¹æ®ä¸Žç”¨æˆ·äº¤äº’æ¥æ”¹å˜ã€‚
 
 12.
-Props ÑéÖ¤Ê¹ÓÃ propTypes£¬Ëü¿ÉÒÔ±£Ö¤ÎÒÃÇµÄÓ¦ÓÃ×é¼þ±»ÕýÈ·Ê¹ÓÃ£¬React.PropTypes Ìá¹©ºÜ¶àÑéÖ¤Æ÷ (validator) À´ÑéÖ¤´«ÈëÊý¾ÝÊÇ·ñÓÐÐ§¡£µ±Ïò props ´«ÈëÎÞÐ§Êý¾ÝÊ±£¬JavaScript ¿ØÖÆÌ¨»áÅ×³ö¾¯¸æ¡£
+Props éªŒè¯ä½¿ç”¨ propTypesï¼Œå®ƒå¯ä»¥ä¿è¯æˆ‘ä»¬çš„åº”ç”¨ç»„ä»¶è¢«æ­£ç¡®ä½¿ç”¨ï¼ŒReact.PropTypes æä¾›å¾ˆå¤šéªŒè¯å™¨ (validator) æ¥éªŒè¯ä¼ å…¥æ•°æ®æ˜¯å¦æœ‰æ•ˆã€‚å½“å‘ props ä¼ å…¥æ— æ•ˆæ•°æ®æ—¶ï¼ŒJavaScript æŽ§åˆ¶å°ä¼šæŠ›å‡ºè­¦å‘Šã€‚
 
 13.
-ÉèÖÃ×´Ì¬:setState
+è®¾ç½®çŠ¶æ€:setState
 setState(object nextState[, function callback])
-²ÎÊýËµÃ÷
-nextState£¬½«ÒªÉèÖÃµÄÐÂ×´Ì¬£¬¸Ã×´Ì¬»áºÍµ±Ç°µÄstateºÏ²¢
-callback£¬¿ÉÑ¡²ÎÊý£¬»Øµ÷º¯Êý¡£¸Ãº¯Êý»áÔÚsetStateÉèÖÃ³É¹¦£¬ÇÒ×é¼þÖØÐÂäÖÈ¾ºóµ÷ÓÃ
+å‚æ•°è¯´æ˜Ž
+nextStateï¼Œå°†è¦è®¾ç½®çš„æ–°çŠ¶æ€ï¼Œè¯¥çŠ¶æ€ä¼šå’Œå½“å‰çš„stateåˆå¹¶
+callbackï¼Œå¯é€‰å‚æ•°ï¼Œå›žè°ƒå‡½æ•°ã€‚è¯¥å‡½æ•°ä¼šåœ¨setStateè®¾ç½®æˆåŠŸï¼Œä¸”ç»„ä»¶é‡æ–°æ¸²æŸ“åŽè°ƒç”¨
 14.
-propsÏàµ±ÓÚ×é¼þµÄÊý¾ÝÁ÷£¬Ëü×ÜÊÇ»á´Ó¸¸×é¼þÏòÏÂ´«µÝÖÁËùÓÐµÄ×Ó×é¼þÖÐ
+propsç›¸å½“äºŽç»„ä»¶çš„æ•°æ®æµï¼Œå®ƒæ€»æ˜¯ä¼šä»Žçˆ¶ç»„ä»¶å‘ä¸‹ä¼ é€’è‡³æ‰€æœ‰çš„å­ç»„ä»¶ä¸­
 15.
-setpropsÒ²»á´¥·¢×é¼þÖØÐÂäÖÈ¾
+setpropsä¹Ÿä¼šè§¦å‘ç»„ä»¶é‡æ–°æ¸²æŸ“
